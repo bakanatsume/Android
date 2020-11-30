@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#473ad6"
+    tools:context=".MainActivity">
+
+<!--    Views / Widgets-->
+    <EditText
+        android:id="@+id/etfirst"
+        android:background="@color/white"
+        android:inputType="number"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the first number"
+        />
+    <EditText
+        android:id="@+id/etsecond"
+        android:inputType="number"
+        android:background="@color/white"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:hint="Enter the Second Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btncalculate"
+        android:layout_margin="10dp"
+        android:text="Calculate the Sum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
